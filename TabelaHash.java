@@ -1,6 +1,3 @@
-import java.io.*;
-import java.util.LinkedList;
-
 class TabelaHash {
     private final LinkedList<Palavra>[] tabela;
     private final int TAMANHO = 26;
@@ -38,10 +35,5 @@ class TabelaHash {
             }
         }
         return null;
-    }
-
-    public LinkedList<Palavra> getListaPorLetra(char letra) {
-        int indice = Character.toLowerCase(letra) - 'a';
-        return tabela[indice];
     }
 }

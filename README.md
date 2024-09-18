@@ -1,11 +1,11 @@
-#Estrutura do projeto
+## Estrutura do projeto
 
 ```graphql
 IndiceRemissivo/
 │
-│|── Main.java              # Classe principal que executa o programa
-│├── Palavra.java           # Classe que representa a palavra e suas ocorrências
-│├── TabelaHash.java        # Implementação da tabela hash
+│── Main.java              # Classe principal que executa o programa
+│── Palavra.java           # Classe que representa a palavra e suas ocorrências
+│── TabelaHash.java        # Implementação da tabela hash
 │
 ├── input/
 │   ├── texto.txt                    # Arquivo de entrada com o texto de procura
@@ -42,7 +42,7 @@ Funções principais:
 
 ---
 
-### 3. **HashTable.java**
+### 3. **TabelaHash.java**
 Implementa a tabela hash, que armazena as palavras do texto de acordo com sua primeira letra. Cada chave da tabela hash corresponde a uma letra, e o valor associado a essa chave é uma lista encadeada de objetos `Palavra`.
 
 Funções principais:
