@@ -53,7 +53,7 @@ Funções principais:
 
 ## Como Executar o Projeto
 
-1. **Compilar o arquivo Main.java (Logo após criará alguns arquivos.class)**:
+1. **Compilar o arquivo Main.java (Logo após criará alguns arquivos .class)**:
    ```bash
    javac Main.java
 
